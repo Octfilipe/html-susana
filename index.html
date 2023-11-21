@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charse="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Susana Gabinete de Estética</title>"Site em Construção..."
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="preconnect" href="http:\\googleapis.com">
+    <link rel="preconnect" href="http:\\gstatic.com" crossorigin>
+    <link href="http:\\fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">  
+    <style>
+    footer{
+    margin-bottom: 1rem;
+   }
+   </style>        
+</head>
+<body>
+    <div class="main">
+    <img class="logo" src="/imagens/Logo Loja.jpg" alt="logo">
+    <h1>Susana Gabinete  de <span class="estética">Estética</span></h1>
+</div>
+    <img class="left mySlides" src="/imagens/Paredetras.jpg" style="width:45%">
+    <img class="left mySlides" src="/imagens/gabinete.jpg" style="width:45%">
+    <img class="left mySlides" src="/imagens/entradaedificio.jpg" style="width:40%">
+  </div>
+  <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 5000); // Change image every 2 seconds
+    }
+    
+    </script>
+    
+    
+<hr/>
+    <p>Venha fazer uma visita e claro uma possivel marcação.</p>
+        <p>Centro comercial Tropical, loja 24, Celas, Coimbra</p>
+    <hr>
+        <h2>Temos vários serviços à vossa espera:</h2>
+            <h2><a href="./serviços/Manicure.html">Manicure</a></h2>
+            <h2><a href="./serviços/Pedicure.html">Pedicure</a></h2>
+            <h2><a href="./serviços/Podofix.html">Podofix</a></h2>
+            <h2><a href="./serviços/Epilação.html">Epilação</a></h2>
+            <h2><a href="./serviços/Drenagem Linfática.html">Drenagem Linfática</a></h2>
+            <h2><a href="./serviços/Depilação.html">Depilação</a></h2>
+            <h2><a href="./serviços/Massagem das velas.html">Massagem das Velas</a></h2>
+            <h2><a href="./serviços/Depilação com Linha.html">Depilação com Linha</a></h2>
+            <h2><a href="./serviços/Tratamentos de Parafina.html">Tratamentos de Parafina</a></h2>
+            <h2><a href="./serviços/Epilação.html">Epilação</a></h2>
+            <h2><a href="./serviços/Verniz Gel.html">Verniz Gel</a></h2>
+        
+        <hr>
+    <footer>
+        <a href="./contents/about.html">Acerca de Mim /</a>  
+        <a href="./contents/Contactos.html">Contactos</a>        
+    </footer>
+    </body>
+    </html>
